@@ -10,4 +10,4 @@
 
 (defn -main[]
   (let [port (Integer/parseInt (System/getenv "PORT"))]
-    run-jetty app {:port port}))
+   ( run-jetty handler {:port port})))
